@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>Booking.Hosmos</title>
+	<link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/fotorama.css">
+	<link rel="stylesheet" href="css/idangerous.swiper.css">
+	<link rel="stylesheet" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" href="css/template.css"/>
+	 <!--[if lt IE 9]><script src="js/html5shiv-printshiv.js"></script><![endif]-->
+</head>
+<body>
+	<header class="page-header">
+			<nav class="main-menu">
+				<div class="container">
+					<ul class="menu">
+						<li><a href="rooms.html">Комнаты</a></li>
+						<li><a href="news.html">Новости</a></li>
+						<li><a href="events.html">События</a></li>
+						<li class="selected"><a href="booking.html">Бронирование</a></li>
+						<li><a href="gallery.html">Галерея</a></li>
+						<li><a href="contact.html">Контакты</a></li>
+						<li><a href="#">Отзывы</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="languages">
+					<a href="#">ru</a>
+					<a href="#">ua</a>
+					<a href="#">en</a>
+				</div>
+				<form class="search" action="/">
+					<input type="search" name="query" class="query" placeholder="Найти">
+					<input type="submit" class="telescope" value="">
+				</form>
+				<div class="address">
+					<p>г. Харьков, Краснооктябрьская, 16</p>
+					<p>HOSTEL.HOSMOS@gmail.com</p>
+					<p>VK.COM/HOSMOS</p>
+					<p>+38 (093) 636 10 20</p>
+				</div>
+			</div>
+	</header>
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	                                        Main
+	     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<div class="main">
+		<div class="room-page_top">
+			<a href="index.html" class="room-page_logo"></a>
+		</div>
+		<div class="events-news">
+			<div class="container">
+				<div class="room-page_name">забронировать комнату</div>
+				<div class="underline-ship"></div>
+				<div class="booking-page-end">
+					<form action="#" class="form">
+						<input class="contact first" name="name" type="text" required="required" pattern=".*" placeholder="Name*"/> 
+						<input class="contact second" name="e-mail" type="text" required="required" pattern=".*" placeholder="Email or phone*"/> 
+						<input class="contact first contact--date" name="check-in" type="text" required="required" placeholder="Data of Check-in*"/> 
+						<input class="contact second contact--date" name="check-out" type="text" required="required" placeholder="Data of Check-out*"/> 
+						<textarea class="contact message" name="message" placeholder="Message"></textarea>
+						<input class="submit" type="submit" value="отправить">
+						<p>* Поля обязательные для заполнения</p>
+					</form>
+					<div class="information">
+						<p>Полезная информация</p>
+						<p>Sodales turpis non volutpat sagittis. Ut congue arcu a tincidunt males uada. Suspendisse ornare auctor cursus.</p>
+						<p>Vestibulum sem lacus eget arcu. Nunc rutrum eros sed arcu adipiscing, sit amet pulvinar nunc tristique. Curabitur ornare orci vel libero cursus; tincidunt rutrum libero elementum. Cras conlectus sodales eget. Maecenas vestibulum, neque eget aliquam gravida; lorem tortor consequat diam, et faucibus magna nibh sed justo?</p>
+						<p>Phasellus venenatis lorem sed enim sodales; quis tristique augue ultrices. Sed rhoncus placerat risus in tempus.Aliquam vel mauris.</p>
+						<p>Правила хостела можно прочесть <a href="#">ЗДЕСЬ</a></p>
+					</div>
+					<!-- // div.information -->
+				</div>
+				<!-- // div.booking-page-end -->
+			</div>
+			<!-- // div.container -->
+		</div>
+		<!-- // div.events-news -->
+		<div class="room-page-bottom"></div>
+	</div>
+	<!-- // div.main -->
+
+<!-- // Main -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                        Footer
+     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<footer>
+		<div class="footer_bg-top rooms-bbg"></div>
+		<div class="footer_bg-general">
+			<div class="container">
+				<ul class="links">
+					<li><a href="#">Комнаты</a></li>
+					<li><a href="#">Новости</a></li>
+					<li><a href="#">События</a></li>
+					<li><a href="#">Бронирование</a></li>
+				</ul>
+				<ul class="links">
+					<li><a href="#">Галерея</a></li>
+					<li><a href="#">Контакты</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Правила хостела</a></li>
+				</ul>
+				<div class="footer-right">
+					<div class="social-icons">
+						<a class="icon instagram" href="#"></a>
+						<a class="icon twitter" href="#"></a>
+						<a class="icon vk" href="#"></a>
+						<a class="icon google" href="#"></a>
+						<a class="icon fb" href="#"></a>
+					</div>
+					<form class="mail" action="/">
+						<label class="mail-label" for="email">
+							Подписаться на рассылку
+						</label>
+						<input id="email" class="e-mail" type="email" name="e-mail" placeholder="Email">
+						<input class="mail-icon" type="submit" value="">
+					</form>
+				</div>
+				<div class="separate"></div>
+				<div class="address footer">
+						<p>г. Харьков, Краснооктябрьская, 16</p>
+						<p>HOSTEL.HOSMOS@gmail.com</p>
+						<p>VK.COM/HOSMOS</p>
+						<p>+38 (093) 636 10 20</p>
+				</div>
+				<div class="separate sep-right"></div>
+				<p class="footer-bottom">© HOSMOS 2014</p>
+			</div>
+		</div>
+	</footer>
+
+<!-- // Footer -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                        Scripts
+     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+<script>window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>');</script>
+<script src="js/baguetteBox.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/fotorama.js"></script>
+<script src="js/jquery.placeholder.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/jVForms.min.js"></script>
+<script src="js/scripts.js"></script>
+
+
+<!-- // Scripts -->
+
+</body>
+</html>
